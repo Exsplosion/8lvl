@@ -6,13 +6,9 @@ html {
 }
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 15px;
-}
-input {
-    margin: 15px;
+    justify-content: start;
+    align-items: center;
 }
 @font-face {
     font-family: "Roboto-Black";
