@@ -6,13 +6,17 @@ html {
 }
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 15px;
+    align-items: start;
+}
+div {
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
 }
 input {
-    margin: 15px;
+    margin: 5px;
 }
 @font-face {
     font-family: "Roboto-Black";
